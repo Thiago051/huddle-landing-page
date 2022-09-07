@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+    <g clip-path="url(&quot;#SvgjsClipPath1047&quot;)" fill="none">
+        <rect width="1440" height="560" x="0" y="0" fill="rgba(103, 75, 175, 1)"></rect>
+        <circle r="35.56" cx="754.81" cy="370.64" fill="url(#SvgjsLinearGradient1048)"></circle>
+        <circle r="35.94" cx="1340.11" cy="436.82" fill="#43468b"></circle>
+        <circle r="43.44" cx="1082.13" cy="524.06" fill="url(#SvgjsLinearGradient1049)"></circle>
+        <circle r="48.235" cx="398.41" cy="83.27" fill="url(#SvgjsLinearGradient1050)"></circle>
+        <circle r="18.03" cx="911.31" cy="469.81" fill="#43468b"></circle>
+        <circle r="22.32" cx="348.3" cy="536.39" fill="url(#SvgjsLinearGradient1051)"></circle>
+        <circle r="39.405" cx="178.37" cy="366.57" fill="#43468b"></circle>
+        <circle r="54.98" cx="111.36" cy="109.54" fill="url(#SvgjsLinearGradient1052)"></circle>
+    </g>
+    <defs>
+        <clipPath id="SvgjsClipPath1047">
+            <rect width="1440" height="560" x="0" y="0"></rect>
+        </clipPath>
+        <linearGradient x1="683.6899999999999" y1="370.64" x2="825.93" y2="370.64" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1048">
+            <stop stop-color="#f29b7c" offset="0.1"></stop>
+            <stop stop-color="#7e6286" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="995.2500000000001" y1="524.06" x2="1169.0100000000002" y2="524.06" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1049">
+            <stop stop-color="#ab3c51" offset="0.1"></stop>
+            <stop stop-color="#4f4484" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="301.94000000000005" y1="83.27" x2="494.88000000000005" y2="83.27" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1050">
+            <stop stop-color="#ab3c51" offset="0.1"></stop>
+            <stop stop-color="#4f4484" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="303.66" y1="536.39" x2="392.94000000000005" y2="536.39" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1051">
+            <stop stop-color="#84b6e0" offset="0.1"></stop>
+            <stop stop-color="#464a8f" offset="0.9"></stop>
+        </linearGradient>
+        <linearGradient x1="1.4000000000000057" y1="109.54" x2="221.32" y2="109.54" gradientUnits="userSpaceOnUse" id="SvgjsLinearGradient1052">
+            <stop stop-color="#32325d" offset="0.1"></stop>
+            <stop stop-color="#424488" offset="0.9"></stop>
+        </linearGradient>
+    </defs>
+</svg>
