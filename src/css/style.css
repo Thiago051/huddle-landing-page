@@ -8,8 +8,8 @@
 body {
     background-image: linear-gradient(rgb(255, 0, 221), rgb(112, 11, 126), var(--violet));
     background-size: cover;
-    color: #fff;
     height: 100vh;
+    color: #fff;
 }
 
 /* HEADER */
@@ -19,7 +19,7 @@ body {
 
 /* CONTAINER */
 .container {
-    height: 65vh;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@ body {
 
 /* FOOTER */
 .footer {
-    padding-bottom: 30px; 
+    margin-top: -30px;
 }
 
 .footer .social {
@@ -127,11 +127,11 @@ body {
 
     .header {
         text-align: center;
-        padding: 20px;
+        padding: 30px;
     }
 
     .container {
-        height: 85vh;
+        height: auto;
         flex-direction: column;
         justify-content: flex-start;
         padding: 0 30px;
@@ -152,6 +152,11 @@ body {
 
     .container .right .link-register {
         width: 50%;
+    }
+
+    .footer {
+        margin: 0;
+        padding-bottom: 30px;
     }
 
     .footer .social {
