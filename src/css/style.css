@@ -8,27 +8,29 @@
 body {
     background-image: linear-gradient(rgb(255, 0, 221), rgb(112, 11, 126), var(--violet));
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
 }
 
 /* HEADER */
 .header {
-    padding: 50px;
+    padding: 5rem;
 }
 
 /* CONTAINER */
 .container {
-    height: 70%;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 50px;
+    padding: 0 5rem;
 }
 
-.container .right, .container .left {
-    max-width: 709px;
-    max-height: 506px;
+.container .left,
+.container .right
+{
+    max-width: 70.9rem;
+    max-height: 50.6rem;
 }
 
 /* RIGHT */
@@ -37,7 +39,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 5rem;
 }
 
 .container .right .title {
@@ -46,7 +48,7 @@ body {
     font-weight: 600;
     text-align: center;
     line-height: 5.5rem;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 
 .container .right .text {
@@ -55,34 +57,31 @@ body {
     text-align: center;
     font-weight: 400;
     width: 95%;
-    padding-bottom: 25px;
+    padding-bottom: 2.5rem;
 }
 
-.container .right .link-register {
-    background-color: #fff;
-    width: 40%;
-    height: 45px;
-    border-radius: 50px;
-
+.container .right .register {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: #fff;
+    width: 40%;
+    height: 4.5rem;
+    border-radius: 5rem;
     text-decoration: none;
     color: var(--violet);
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 600;
     transition: 0.5s;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.5);  
+    box-shadow: 0 1rem 1.5rem -0.3rem rgba(0,0,0,0.5);  
 }
 
-.container .right .link-register:hover {
+.container .right .register:hover {
     background-color: var(--soft-magenta);
     color: #fff;
     font-weight: bold;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,1);  
+    box-shadow: 0 1rem 1.5rem -0.3rem rgba(0,0,0,0.8);  
 }
 
 
@@ -94,31 +93,30 @@ body {
 
 /* FOOTER */
 .footer {
-    margin-top: -30px;
-}
-
-.footer .social {
-    display: flex; 
-    justify-content: flex-end;
-    margin-right: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
 }
 
 .footer .social :nth-child(2){
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
-.social i {
+.footer .social i {
     color: #fff;
     font-size: 3rem;
     transition: 0.3s ease;
 }
 
-.social a:hover i{
+.footer .social a:hover i{
     color: var(--soft-magenta);
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.5); 
+    box-shadow: 0 1rem 1.5rem -0.3rem rgba(0,0,0,0.5); 
 }
 
+/* RESPONSIVE */
 @media(max-width: 900px) {
 
     body {
@@ -133,12 +131,11 @@ body {
     .container {
         height: auto;
         flex-direction: column;
-        justify-content: flex-start;
-        padding: 0 30px;
+        padding: 0 3rem;
     }
 
     .container .right {
-        padding: 30px 0;
+        padding: 3rem 0;
     }
 
     .container .right .title {
@@ -150,17 +147,19 @@ body {
         font-size: 1.6rem;
     }
 
-    .container .right .link-register {
+    .container .right .register {
         width: 50%;
     }
 
     .footer {
-        margin-top: 15px;
-        padding-bottom: 30px;
+        position: relative;
+        margin-top: 1.5rem;
+        padding-right: 0;
     }
 
     .footer .social {
         width: 100%;
+        display: flex;
         justify-content: center;
     }   
 }
